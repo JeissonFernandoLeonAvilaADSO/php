@@ -9,13 +9,7 @@
     $connection = $database->getConnection();
     $aprendiz = new Aprendiz($connection);
 
-    // $aprendiz->store([
-    //     'first_name' => "juan",
-    //     'last_name' => "carreño",
-    //     'email' => "example3@gmail.com",
-    //     'phone' => "65498654",
-    //     'dni' => 38527411
-    // ]);
+
 
     // $aprendiz->update(3, [
     //     'first_name' => "juan",
@@ -23,5 +17,4 @@
     //     'user_account' => 2696521
     // ]);
 
-    
 ?>
